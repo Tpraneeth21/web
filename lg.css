@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff6f61;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #777;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fff;
+    color: #555;
+    transition: background-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: #f0f0f0;
+}
+
+input[type="submit"] {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff5a4f;
+}
+
+.container p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.container a {
+    color: #ff6f61;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.container a:hover {
+    color: #ff5a4f;
+}

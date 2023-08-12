@@ -1,0 +1,354 @@
+
+.portfolio {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #f4f4f4;
+}
+
+.logo span {
+  color: #ff6b6b;
+}
+
+
+/* CSS for the navigation menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+#about-us {
+  background-image: url('2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+#about-us h2 {
+   font-family: 'Arial';
+   font-weight: bold;
+    font-size: 24px;
+    color: #ff6b6b;
+    text-shadow: 2px 2px #1a0000;
+}
+
+#about-us p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px #1a0000;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#menu {
+  background-color: #333;
+  padding: 50px;
+  text-align: center;
+}
+
+#menu h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  color: #ff6b6b;
+  margin-bottom: 20px;
+}
+
+#menu p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+#menu ul li {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item .name {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.menu-item .price {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #ff6b6b;
+}
+#services {
+  background-color: #333;
+  padding: 50px;
+  text-align: center;
+  background-image: url("1.jpg"); /* Add this line */
+  background-size: cover; /* Add this line */
+  background-position: center; /* Add this line */
+}
+
+#services h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#services p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #ff6b6b;
+  text-shadow: 2px 2px #fff;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#services ul li {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+.services-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.services-item .name {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.services-item .icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+#footer p {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#footer .social {
+  margin-bottom: 20px;
+}
+
+#footer .social a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #ff6b6b;
+  font-size: 20px;
+}
+
+#footer .social a:hover {
+  color: #ff6b6b;
+}
+
+#footer .email {
+  font-weight: bold;
+}
+
+#footer .email span {
+  color: #ffbb00;
+}
+
+#footer .Contact {
+  font-weight: bold;
+}
+
+#footer .Contact span {
+  color: #ffbb00;
+}
+
+#footer .last {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+@font-face {
+  font-family: 'icono';
+  src: url('path/to/icono.woff2') format('woff2'),
+       url('path/to/icono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icono-facebook::before {
+  content: "\e900";
+}
+
+.icono-instagram::before {
+  content: "\e901";
+}
+
+.icono-linkedIn::before {
+  content: "\e902";
+}
+.container {
+  background-image: url('R.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Form container */
+#contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+/* Form controls */
+.form-control {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Error styles */
+.error {
+  border-color: #ff6b6b !important;
+}
+
+.error-message {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in-item {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in-section.fade-in {
+  opacity: 1;
+}
+
+.fade-in-item.fade-in {
+  opacity: 1;
+}

@@ -1,0 +1,70 @@
+/* Reset some default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container */
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the register and home buttons */
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.home-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-button a {
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.home-button a:hover {
+    background-color: #007bff;
+    color: white;
+}
